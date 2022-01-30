@@ -26,39 +26,39 @@
    spent on the Basic version. If for some reason we are too efficient we can
    try working on the other parts as well.
 
-*** Initialize an empty React project
+*** TODO Initialize an empty React project
 
     Use [[https://create-react-app.dev/][create-react-app]] to initialize an empty React project. Make sure you are
     able to start a live-reloading web server. Use =npm=, not =yarn=.
 
-*** First commit                                                        :Git:
+*** TODO First commit                                                   :Git:
     Commit your app wih a meaningful commit. From here on no new steps for
     commits will be present, it is implicitly expected you commit each step
     separately.
 
-*** Install Cypress locally (through npm)
+*** TODO Install Cypress locally (through npm)
     Use the [[https://docs.cypress.io/guides/getting-started/installing-cypress#Switching-browsers][local installation through npm]].
 
-*** First test                                                      :Cypress:
+*** TODO First test                                                 :Cypress:
     Test that a button with text "New issue" and an id "sb-new-issue-button" is
     present on the page.
 
-*** First React                                                       :React:
+*** TODO First React                                                  :React:
     Implement the first test. Don't write more code than necesary to pass the
     test. Use React to mount the button upon page initialization.
 
-*** Styling test                                                       :Jest:
+*** TODO Styling test                                                  :Jest:
     Test that the "New Issue" button has a "btn-primary" bootstrap class. Use
     Jest for unit (component) testing this time.
 
-*** First CSS                                                     :Bootstrap:
+*** TODO First CSS                                                :Bootstrap:
     Implement the previous test. Don't write more code than necessary to pass
     the test.
 
-*** First interaction test                                          :Cypress:
+*** TODO First interaction test                                     :Cypress:
     Test that clicking the "New Issue" button shows a new form with id
     "new-issue-form".
 
-*** First React interaction                                           :React:
+*** TODO First React interaction                                      :React:
     Implement the previous test. Don't write more code than necessary to pass
     the test.
