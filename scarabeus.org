@@ -26,6 +26,36 @@
    spent on the Basic version. If for some reason we are too efficient we can
    try working on the other parts as well.
 
+   Basic version features we want to implement:
+   - add an issue (issue has title, comment, tags, solver, open/closed state)
+   - edit existing issue
+     - change title
+     - change comment
+     - add tags
+     - change tags
+     - delete tags
+     - add solver
+     - change solver
+     - delete solver
+     - close issue
+     - reopen issue
+   - delete issue (maybe?)
+   - add comment to issue
+   - edit comment
+   - react to comment (thumbs-up, heart etc emojis)
+   - delete comment (maybe?)
+   - show issue list
+   - filter issue list by solver/title/tags/state
+   - export issue list to JSON
+   - save issues to LocalStorage
+   - load issues from LocalStorage
+   - create user
+   - edit user profile
+     - change display name
+     - change avatar
+   - delete user
+   - switch to different user
+
 *** TODO Initialize an empty React project
 
     Use [[https://create-react-app.dev/][create-react-app]] to initialize an empty React project. Make sure you are
